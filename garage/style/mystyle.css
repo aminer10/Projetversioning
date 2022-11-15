@@ -15,7 +15,7 @@
 	margin-right: auto;
 }
 .header{
-	background-color: #191919;
+	background-color: #294252;
 	
 }
 .header .container{
@@ -171,7 +171,7 @@ padding-left: 5%;
  #navbarontop>button{
  	background: none;
  	background-color: none;
- 	border: 2px solid #C59E47;
+ 	border: 2px solid #294252;
  	font-family: 'BebasNeue Regular';
  	margin-left: 60px;
   	font-size: 16.99px;
@@ -182,7 +182,7 @@ padding-left: 5%;
   	padding-bottom:-2px;
  }
  #navbarontop>button:hover{
- 	background-color: #C59E47;
+ 	background-color: #294252;
  	color: #fff;
  }
  .dropdowncostume{
@@ -384,7 +384,7 @@ font-size: 10pt;
 	padding-left: 40px;
 }
 .midle-nav{
-	background: rgba(248,199,45,.8);
+	background: #d6d5c4;
  	border: 0px;
  	position: absolute;
  	bottom: 0px;
@@ -460,7 +460,7 @@ font-size: 10pt;
 	background: none;
 	background-color: none;
 	border: 1px solid #fff;
-	border-radius: 0px;
+	border-radius: 24px;
 	box-shadow: 0px;
 	box-shadow: inset 0px;
 	height: 44px;
@@ -518,7 +518,7 @@ font-size: 10pt;
 	padding-top: 20px;
 }
 .btn-costume{
-	border-radius: 0px;
+	border-radius: 24px;
 }
 
  
@@ -799,7 +799,7 @@ font-weight: bold;
 .featurecontant{
 	width:85%;
 	height: auto;
-	border: 1px solid #C59E47;
+	border: 1px solid #294252;
 	margin-top: 7%;
  
 	margin-right: auto;
@@ -831,8 +831,7 @@ font-weight: bold;
 	margin-bottom: 19px;
 }
 .featurecontant>button{
-	background: #020243;
-	border: 1px solid #020243;
+	background: #4f8888;
 	font-family: "OpenSans Regular";
 	font-size: 19px;
 	color:#fff;
@@ -840,8 +839,11 @@ font-weight: bold;
 	width: 68%;
 	margin-left: 17%;
 	margin-bottom: 26px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 28px;
+	outline: none !important;
+	border: 2px #4f8888 solid;
 }
 .featurecontant>button:hover{
 	-moz-transition: all .3s ease-in;
@@ -862,6 +864,8 @@ font-weight: bold;
 }
 .img2colon>img{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 #readmore{
 	overflow-y: auto;
@@ -1367,16 +1371,20 @@ padding-left: 0px;
 	top:45%;
 	left:25%;
 	z-index: 99;
-	background: none;
-	border: 1px solid #fff;
+	background: #4f8888;
+	border: 1px solid #4f8888;
 	font-family: "OpenSans-Light";
-	font-size: 31.5px;
+	font-size: 22px;
+	font-weight: 400;
 	color: #fff;
 	letter-spacing: 11px;
-	padding-left: 26.7px;
-	padding-right: 26.7px;
-	width: 53%;
+	padding-left: 8px !important;
+	/*padding-right: 8px !important; */
 	height: 12%;
+	border-radius: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
  .rightside>button:hover{
  	background:#fff;
@@ -1621,7 +1629,7 @@ left: 0%;
 
 }
 .footer{
-background-color: #191919;
+background-color: #294252;
 color: #fff;
 font-family: "Roboto Light";
 font-size: 12px;
